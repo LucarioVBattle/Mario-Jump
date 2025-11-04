@@ -1,0 +1,19 @@
+css
+
+@keyframes pipe-animation {
+    from{
+        right: -80px;
+    }
+    to {
+        right: 100%;
+    }
+}
+.pipe {
+    width:80px;
+    position: absolute;
+    bottom: 0;
+    animation: pipe-animation 2s infinite linear;
+}
+@keyframe jump {
+    0%
+}
