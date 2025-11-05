@@ -23,3 +23,5 @@ css
 
 .jump {
     animation: jump 500ms ease-out;
+    pipe.style.animation = 'none';
+    pipe.style.left
