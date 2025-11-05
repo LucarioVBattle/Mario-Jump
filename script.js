@@ -21,3 +21,9 @@ document.addEventListener("keydown", (event) => {
     jump()
   }
 });
+const loop = setInterval(() => {
+  const pipePosition = pipe.offsetLeft;
+  const marioPosition = +window.getComputedStyle(mario).botton.replace('px', '');
+  const cloudsPosition = +window.getComputedStyle(clouds).right.replace('px','');
+  if (pipePosition <= 120 && pipePosition > && marioPosition < 80) {
+  
