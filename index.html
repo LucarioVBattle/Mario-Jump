@@ -1,13 +1,24 @@
-html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario Jump</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
 <body>
 
     <div class="board">
-            <img src= "./image/pipe.png" class="pipe">
-            <img src= "./image/mario.gif" class="mario">
-            <img src= "./image/clouds.png" class="clouds">
+        <img src="./images/pipe.png" class="pipe">
+        <img src="./images/mario.gif" class="mario">
+        <img src="./images/clouds.png" class="clouds">
     </div>
 
-    <div class="score">Pontuação: <span ind="score">0</span></div>
-    <button id="restartBtn" style="display: none;">Reniciar</button>
+    <div class="score">Pontuação: <span id="score">0</span></div>
+
+    <button id="restartBtn" style="display: none;">Reiniciar</button>
+
+    <script src="script.js"></script>
 </body>
+</html>
